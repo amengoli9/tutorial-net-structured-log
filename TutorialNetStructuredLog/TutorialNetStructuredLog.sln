@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStructuredLog", "SimpleStructuredLog\SimpleStructuredLog.csproj", "{4918DD68-2116-448D-97C2-0974863201DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.UnstructuredLogging", "PizzaApp.UnstructuredLogging\PizzaApp.UnstructuredLogging.csproj", "{CCD1ACCB-DD26-42A1-BAF9-E97C1AFAAFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.StructuredLogging", "PizzaApp.StructuredLogging\PizzaApp.StructuredLogging.csproj", "{5286FB34-5F57-44CA-9968-73AAA1C5F876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.SerilogLogging", "PizzaApp.SerilogLogging\PizzaApp.SerilogLogging.csproj", "{A31D63DF-E9B0-4ECB-BC4D-89C187B233B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4918DD68-2116-448D-97C2-0974863201DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4918DD68-2116-448D-97C2-0974863201DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4918DD68-2116-448D-97C2-0974863201DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4918DD68-2116-448D-97C2-0974863201DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD1ACCB-DD26-42A1-BAF9-E97C1AFAAFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD1ACCB-DD26-42A1-BAF9-E97C1AFAAFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD1ACCB-DD26-42A1-BAF9-E97C1AFAAFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD1ACCB-DD26-42A1-BAF9-E97C1AFAAFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5286FB34-5F57-44CA-9968-73AAA1C5F876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5286FB34-5F57-44CA-9968-73AAA1C5F876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5286FB34-5F57-44CA-9968-73AAA1C5F876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5286FB34-5F57-44CA-9968-73AAA1C5F876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31D63DF-E9B0-4ECB-BC4D-89C187B233B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31D63DF-E9B0-4ECB-BC4D-89C187B233B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31D63DF-E9B0-4ECB-BC4D-89C187B233B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31D63DF-E9B0-4ECB-BC4D-89C187B233B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
